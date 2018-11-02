@@ -1,0 +1,4 @@
+services:
+#    projet_boutique.example:
+#        class: projet\BoutiqueBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

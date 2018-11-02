@@ -1,0 +1,15 @@
+projet_boutique_homepage:
+    path:     /index
+    defaults: { _controller: projetBoutiqueBundle:Default:index }
+Shoppage:
+    path:     /shop
+    defaults: { _controller: projetBoutiqueBundle:Default:ChargerShop }
+Contactpage:
+    path:     /contact
+    defaults: { _controller: projetBoutiqueBundle:Default:ChargerContact}
+Checkoutpage:
+    path:     /checkout
+    defaults: { _controller: projetBoutiqueBundle:Default:ChargerCheckout}
+Detailspage:
+    path:     /details
+    defaults: { _controller: projetBoutiqueBundle:Default:ChargerSinglePage}
